@@ -4,6 +4,7 @@ int main()
     int i, num, count=0;
     char  option;
     do{
+        count=0;
     printf("Enter a number\n");
     scanf("%d",&num);
     for(i=1;i<=num;i++)
@@ -23,6 +24,7 @@ int main()
     {
         printf("Neither prime nor composite");
     }
+    
     else{
         printf("Composite number");
     }
