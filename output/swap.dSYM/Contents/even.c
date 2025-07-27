@@ -3,7 +3,7 @@ int main()
 {
     int i,count=0;
   
-    for(i=2;i<=549;i++)
+    for(i=2;i<=100;i++)
     {
        if(i%2==0)
        {
@@ -13,7 +13,7 @@ int main()
        }
        
     }
-      printf("Total number of even number upto 549 = %d",count);
+      printf("Total number of even number upto 100 = %d",count);
     return 0;
 
 }
